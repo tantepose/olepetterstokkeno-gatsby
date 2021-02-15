@@ -2,20 +2,20 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    <SEO title="Ole Petter Baugerød Stokke" />
+
+    <h1>Hei, jeg heter Ole Petter Baugerød Stokke.</h1>
+    <p>Jeg driver med blant annet:</p>
+    <Link to="/tekst/">tekst</Link> <br />
+    <Link to="/kode/">kode</Link> <br />
+    <Link to="/foto/">foto</Link> <br />
+    <Link to="/video/">video</Link> <br />
+    <Link to="/musikk/">video</Link> <br />
+
   </Layout>
 )
 
