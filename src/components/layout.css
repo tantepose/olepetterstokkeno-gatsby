@@ -8,12 +8,18 @@ body {
     background-color: var(--background-color);
     color: var(--foreground-color); 
     font-family: "Arial";
+    margin: 0;
+    padding: 0;
 }
 
 a {
     color: var(--highlight-color);
 }
 
-main {
+.frontpage {
+    text-align: center;
+}
+
+footer {
     text-align: center;
 }

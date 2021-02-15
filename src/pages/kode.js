@@ -10,6 +10,20 @@ const kode = () => (
 
     <h1>kode</h1>
     <p>Her er et par ting jeg har koda.</p>
+    <p>Her er et par ting jeg har koda.</p>
+    <p>Her er et par ting jeg har koda.</p>
+    <p>Her er et par ting jeg har koda.</p>
+    <p>Her er et par ting jeg har koda.</p>
+    <p>Her er et par ting jeg har koda.</p>
+    <p>Her er et par ting jeg har koda.</p>
+    <p>Her er et par ting jeg har koda.</p>
+    <p>Her er et par ting jeg har koda.</p>
+    <p>Her er et par ting jeg har koda.</p>
+    <p>Her er et par ting jeg har koda.</p>
+    <p>Her er et par ting jeg har koda.</p>
+    <p>Her er et par ting jeg har koda.</p>
+    <p>Her er et par ting jeg har koda.</p>
+    <p>Her er et par ting jeg har koda.</p>
   </Layout>
 )
 
