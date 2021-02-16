@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Raleway&display=swap');
+
 :root {
     --background-color: #232530;
     --foreground-color: #FAC29A;
@@ -7,34 +9,38 @@
 body {
     background-color: var(--background-color);
     color: var(--foreground-color); 
-    font-family: "Arial";
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
 }
-
+    
 a {
     color: var(--highlight-color);
 }
 
 .title-box {
-    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    font-family: 'Oleo Script', cursive;
+    font-size: 6em;
+    color: var(--highlight-color);
+    text-shadow: 5px 5px 0px var(--foreground-color);
 }
 
 .title-box a {
-    font-size: 6em;
-    left: -100px;
-    top: 20px;
-    text-decoration: none;
     position: relative;
-    text-shadow: 3px 3px 0px var(--foreground-color);
+    left: -100px;
+    top: -30px;
+
+    text-decoration: none;
 }
 
 .title-box img {
-    position: relative;
-    top: 10px;
-
-    width: 200px;
+    /* position: relative;
+    top: 10px; */
+    width: 300px;
 }
 
 
@@ -46,4 +52,16 @@ footer {
 header {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .title-box img {
+        width: 200px;
+    }
+
+    .title-box {
+        font-size: 5em;
+    }
+
 }

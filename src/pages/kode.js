@@ -9,8 +9,8 @@ const kode = () => (
     <SEO title="Ole Petter Baugerød Stokke koder" />
 
     <div className="title-box">
-        <img src="https://media2.giphy.com/media/iH7LG5cKYdgehqixqM/giphy.gif"></img>
-        <Link to="/kode/">kode</Link> <br />
+        <img src="https://media0.giphy.com/media/l3xt8OjZSgwkYdm0qT/giphy.gif"></img>
+        <Link to="/kode/">kode</Link> 
     </div>
 
     <p>Her er et par ting jeg har koda.</p>

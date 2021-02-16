@@ -9,8 +9,8 @@ const video = () => (
     <SEO title="Ole Petter Baugerød Stokke koder" />
 
     <div className="title-box">
-        <img src="https://media1.giphy.com/media/dYdJbsO2Ek7LYGxWd5/giphy.gif"></img>
-        <Link to="/video/">video</Link> <br />
+        <img src="https://media2.giphy.com/media/4PXXgk8pFA5d7d53HJ/giphy.gif"></img>
+        <Link to="/video/">video</Link> 
     </div>
 
     <p>Her er et par ting jeg har filma.</p>
