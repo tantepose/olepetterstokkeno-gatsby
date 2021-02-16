@@ -6,9 +6,7 @@ const Header = () => (
     <Link to="/">hjem</Link> | 
     <Link to="/tekst/">tekst</Link> | 
     <Link to="/kode/">kode</Link> | 
-    <Link to="/foto/">foto</Link> | 
     <Link to="/video/">video</Link>
-    <hr></hr>
   </header>
 )
 

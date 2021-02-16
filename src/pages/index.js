@@ -6,20 +6,29 @@ import Footer from "../components/footer"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <div className="frontpage">
-    <SEO title="Ole Petter Baugerød Stokke" />
+  <>
 
-    <h1>Hei, jeg heter Ole Petter Baugerød Stokke.</h1>
-    <p>Jeg driver med blant annet:</p>
-    <Link to="/tekst/">tekst</Link> <br />
-    <Link to="/kode/">kode</Link> <br />
-    <Link to="/foto/">foto</Link> <br />
-    <Link to="/video/">video</Link> <br />
-    <Link to="/musikk/">video</Link> <br />
+    <div className="frontpage">
+      <SEO title="Ole Petter Baugerød Stokke" />
+
+      <div className="title-box">
+        <img src="https://media4.giphy.com/media/nT1MrLuNqrBnO/giphy.gif"></img>
+        <Link to="/tekst/">tekst</Link> <br />
+      </div>
+
+      <div className="title-box">
+        <img src="https://media2.giphy.com/media/iH7LG5cKYdgehqixqM/giphy.gif"></img>
+        <Link to="/kode/">kode</Link> <br />
+      </div>
+
+      <div className="title-box">
+        <img src="https://media1.giphy.com/media/dYdJbsO2Ek7LYGxWd5/giphy.gif"></img>
+        <Link to="/video/">video</Link> <br />
+      </div>
+    </div>
 
     <Footer />
-  </div>
-
+  </>
 )
 
 export default IndexPage
