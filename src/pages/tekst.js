@@ -9,7 +9,7 @@ const tekst = () => (
     <SEO title="Ole Petter Baugerød Stokke koder" />
 
     <div className="title-box">
-        <img src="https://media1.giphy.com/media/gH85KtY9fX2yd9eG4F/giphy.gif"></img>
+        <img src="https://media1.giphy.com/media/l0MYGlG4YLB51v0bu/giphy.gif"></img>
         <Link to="/tekst/">tekst</Link> 
     </div>
     

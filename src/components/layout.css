@@ -17,24 +17,33 @@ body {
     
 a {
     color: var(--highlight-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--foreground-color);
 }
 
 .title-box {
     padding-top: 50px;
     padding-bottom: 50px;
+}
 
+.title-box a {
     font-family: 'Oleo Script', cursive;
     font-size: 6em;
     color: var(--highlight-color);
     text-shadow: 5px 5px 0px var(--foreground-color);
-}
+    text-decoration: none;
 
-.title-box a {
     position: relative;
     left: -100px;
     top: -30px;
+}
 
-    text-decoration: none;
+.title-box a:hover {
+    color: var(--foreground-color);
+    text-shadow: 5px 5px 0px var(--highlight-color);
 }
 
 .title-box img {
@@ -61,7 +70,7 @@ header {
     }
 
     .title-box {
-        font-size: 5em;
+        font-size: 0.8em;
     }
 
 }
