@@ -3,15 +3,18 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import TitleBox from "../components/titlebox"
+import TekstImage from "../images/tekst.gif"
 
 const tekst = () => (
   <Layout>
-    <SEO title="Ole Petter Baugerød Stokke koder" />
+    <SEO title="Ole Petter Baugerød Stokke skriver" />
 
-    <div className="title-box">
-        <img src="https://media1.giphy.com/media/l0MYGlG4YLB51v0bu/giphy.gif"></img>
-        <Link to="/tekst/">tekst</Link> 
-    </div>
+    <TitleBox 
+        image={TekstImage}
+        link="/tekst/"
+        text="tekst"
+    />
     
     <p>Her er et par ting jeg har skrevet.</p>
     <p>Her er et par ting jeg har skrevet.</p>

@@ -4,22 +4,17 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import TitleBox from "../components/titlebox"
-
+import FotoImage from "../images/foto.gif"
 
 const foto = () => (
   <Layout>
-    <SEO title="Ole Petter Baugerød Stokke koder" />
+    <SEO title="Ole Petter Baugerød Stokke fotograferer" />
 
     <TitleBox 
-      image="https://media3.giphy.com/media/SJVTmWQkQoIl6eXfL2/giphy.gif"
+      image={FotoImage}
       link="/foto/"
       text="foto"
     />
-    
-    {/* <div className="title-box">
-        <img src="https://media3.giphy.com/media/SJVTmWQkQoIl6eXfL2/giphy.gif"></img>
-        <Link to="/foto/">foto</Link>
-    </div> */}
 
     <p>Her er et par ting jeg har fotografert.</p>
     <p>Her er et par ting jeg har fotografert.</p>
@@ -29,8 +24,6 @@ const foto = () => (
     <p>Her er et par ting jeg har fotografert.</p>
     <p>Her er et par ting jeg har fotografert.</p>
     <p>Her er et par ting jeg har fotografert.</p>
-
-  
 
   </Layout>
 )

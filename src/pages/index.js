@@ -3,8 +3,13 @@ import { Link } from "gatsby"
 
 import Footer from "../components/footer"
 import TitleBox from "../components/titlebox"
-
 import SEO from "../components/seo"
+
+import TekstImage from "../images/tekst.gif"
+import KodeImage from "../images/kode.gif"
+import FotoImage from "../images/foto.gif"
+import VideoImage from "../images/video.gif"
+import MusikkImage from "../images/musikk.gif"
 
 const IndexPage = () => (
   <>
@@ -13,31 +18,31 @@ const IndexPage = () => (
       <SEO title="Ole Petter Baugerød Stokke" />
 
       <TitleBox 
-        image="https://media1.giphy.com/media/l0MYGlG4YLB51v0bu/giphy.gif"
+        image={TekstImage}
         link="/tekst/"
         text="tekst"
       />
 
       <TitleBox 
-        image="https://media3.giphy.com/media/SJVTmWQkQoIl6eXfL2/giphy.gif"
+        image={FotoImage}
         link="/foto/"
         text="foto"
       />
 
       <TitleBox 
-        image="https://media0.giphy.com/media/l3xt8OjZSgwkYdm0qT/giphy.gif"
+        image={KodeImage}
         link="/kode/"
         text="kode"
       />
 
       <TitleBox 
-        image="https://media3.giphy.com/media/XpjARIiPRrSNFb2Acr/giphy.gif"
+        image={VideoImage}
         link="/video/"
         text="video"
       />
 
       <TitleBox 
-        image="https://media0.giphy.com/media/hqmpUnAqvwFn0rP8zL/giphy.gif"
+        image={MusikkImage}
         link="/musikk/"
         text="musikk"
       />
