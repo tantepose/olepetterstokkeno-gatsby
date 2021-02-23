@@ -1,8 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
 import Footer from "../components/footer"
+import TitleBox from "../components/titlebox"
+
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -11,30 +12,35 @@ const IndexPage = () => (
     <div className="frontpage">
       <SEO title="Ole Petter Baugerød Stokke" />
 
-      <div className="title-box">
-        <img src="https://media1.giphy.com/media/l0MYGlG4YLB51v0bu/giphy.gif"></img>
-        <Link to="/tekst/">tekst</Link> 
-      </div>
+      <TitleBox 
+        image="https://media1.giphy.com/media/l0MYGlG4YLB51v0bu/giphy.gif"
+        link="/tekst/"
+        text="tekst"
+      />
 
-      <div className="title-box">
-        <img src="https://media3.giphy.com/media/SJVTmWQkQoIl6eXfL2/giphy.gif"></img>
-        <Link to="/foto/">foto</Link>
-      </div>
+      <TitleBox 
+        image="https://media3.giphy.com/media/SJVTmWQkQoIl6eXfL2/giphy.gif"
+        link="/foto/"
+        text="foto"
+      />
 
-      <div className="title-box">
-        <img src="https://media0.giphy.com/media/l3xt8OjZSgwkYdm0qT/giphy.gif"></img>
-        <Link to="/kode/">kode</Link> 
-      </div>
+      <TitleBox 
+        image="https://media0.giphy.com/media/l3xt8OjZSgwkYdm0qT/giphy.gif"
+        link="/kode/"
+        text="kode"
+      />
 
-      <div className="title-box">
-        <img src="https://media2.giphy.com/media/4PXXgk8pFA5d7d53HJ/giphy.gif"></img>
-        <Link to="/video/">video</Link> 
-      </div>
+      <TitleBox 
+        image="https://media3.giphy.com/media/XpjARIiPRrSNFb2Acr/giphy.gif"
+        link="/video/"
+        text="video"
+      />
 
-      <div className="title-box">
-        <img src="https://media0.giphy.com/media/hqmpUnAqvwFn0rP8zL/giphy.gif"></img>
-        <Link to="/musikk/">musikk</Link> 
-      </div>
+      <TitleBox 
+        image="https://media0.giphy.com/media/hqmpUnAqvwFn0rP8zL/giphy.gif"
+        link="/musikk/"
+        text="musikk"
+      />
 
     </div>
 
