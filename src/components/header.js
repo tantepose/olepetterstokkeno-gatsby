@@ -9,7 +9,7 @@ const StyledHeader = styled.header `
 
 const Header = () => (
   <StyledHeader>
-    <Link to="/">Ole Petter Baugerød Stokke</Link><span> lager </span> <br></br>
+    <Link to="/">Ole Petter Baugerød Stokke</Link><span> gjør </span> <br></br>
     <Link to="/tekst/">tekst</Link><span> & </span>
     <Link to="/kode/">kode</Link><span> & </span>
     <Link to="/foto/">foto</Link><span> & </span>

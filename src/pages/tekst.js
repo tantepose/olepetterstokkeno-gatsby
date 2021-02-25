@@ -16,18 +16,55 @@ const tekst = () => (
         text="tekst"
     />
     
-    <p>Her er et par ting jeg har skrevet.</p>
-    <p>Her er et par ting jeg har skrevet.</p>
-    <p>Her er et par ting jeg har skrevet.</p>
-    <p>Her er et par ting jeg har skrevet.</p>
-    <p>Her er et par ting jeg har skrevet.</p>
-    <p>Her er et par ting jeg har skrevet.</p>
-    <p>Her er et par ting jeg har skrevet.</p>
-    <p>Her er et par ting jeg har skrevet.</p>
-    <p>Her er et par ting jeg har skrevet.</p>
-    <p>Her er et par ting jeg har skrevet.</p>
-    <p>Her er et par ting jeg har skrevet.</p>
-    <p>Her er et par ting jeg har skrevet.</p>
+      <h1>tester:</h1>
+      <ul>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+      </ul>
+
+      <h1>kommentarer:</h1>
+      <ul>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+      </ul>
+
+      <h1>nyhetsartikler:</h1>
+      <ul>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+      </ul>
+
+      <h1>tester:</h1>
+      <ul>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+      </ul>
+
+      <h1>kommentarer:</h1>
+      <ul>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+      </ul>
+
+      <h1>nyhetsartikler:</h1>
+      <ul>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+        <li><a href="asd.asd">Det beste av det beste!</a></li>
+      </ul>
+
+
 
   </Layout>
 )

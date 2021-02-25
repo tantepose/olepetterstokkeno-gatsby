@@ -7,27 +7,53 @@
 
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+
 import styled from "styled-components"
+import { createGlobalStyle } from "styled-components"
 
 import Header from "./header"
 import Footer from "./footer"
-import "./layout.css"
+import "./layout.css" //used only for imports of Google fonts
 
 const Layout = ({ children }) => {
 
+  // styling body with a GlobalStyle component
+  const GlobalStyle = createGlobalStyle`
+    body {
+      
+      margin: 0;
+      padding: 0;
+
+      --background-color: #232530;
+      --foreground-color: #FAC29A;
+      --highlight-color: #E95678;
+
+      color: var(--foreground-color); 
+      background-color: var(--background-color);
+
+      font-family: 'JetBrains Mono', monospace;
+      text-align: center;
+    }
+
+    //scrollbar styling
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: none;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #FAC29A;
+      border-radius: 5px;
+    }
+
+  `
+
   const StyledLayout = styled.div`
-    --background-color: #232530;
-    --foreground-color: #FAC29A;
-    --highlight-color: #E95678;
-
-    background-color: var(--background-color);
-    color: var(--foreground-color); 
-
     padding-left: 10px;
     padding-right: 10px;
-
-    font-family: 'JetBrains Mono', monospace;
-    text-align: center;
 
     a {
     color: var(--highlight-color);
@@ -37,6 +63,18 @@ const Layout = ({ children }) => {
     a:hover {
         color: var(--foreground-color);
     }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      margin-top: 50px;
+      margin-bottom: 10px;
+    }
+
   `
 
   const data = useStaticQuery(graphql`
@@ -51,6 +89,8 @@ const Layout = ({ children }) => {
 
   return (
     <StyledLayout>
+      <GlobalStyle />
+
       <Header />
 
       <main>{children}</main>

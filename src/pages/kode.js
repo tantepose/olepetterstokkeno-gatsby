@@ -16,21 +16,36 @@ const kode = () => (
         text="kode"
     />
 
-    <p>Her er et par ting jeg har koda.</p>
-    <p>Her er et par ting jeg har koda.</p>
-    <p>Her er et par ting jeg har koda.</p>
-    <p>Her er et par ting jeg har koda.</p>
-    <p>Her er et par ting jeg har koda.</p>
-    <p>Her er et par ting jeg har koda.</p>
-    <p>Her er et par ting jeg har koda.</p>
-    <p>Her er et par ting jeg har koda.</p>
-    <p>Her er et par ting jeg har koda.</p>
-    <p>Her er et par ting jeg har koda.</p>
-    <p>Her er et par ting jeg har koda.</p>
-    <p>Her er et par ting jeg har koda.</p>
-    <p>Her er et par ting jeg har koda.</p>
-    <p>Her er et par ting jeg har koda.</p>
-    <p>Her er et par ting jeg har koda.</p>
+    <h1><a href="http://friend.fail/">friend.fail</a></h1>
+    <p>friend.fail er et spill om å feile som venn. <br/>
+    Spilles med to eller flere personer på én mobil.</p>
+    <a href="github.com/asd">(kildekode)</a>
+
+    <h1><a href="friend.fail">2 cars, 1 road</a></h1>
+    <p>friend.fail er et spill om å feile som venn. <br/>
+    Spilles med to eller flere personer på én mobil.</p>
+    <a href="github.com/asd">(kildekode)</a>
+
+    <h1><a href="friend.fail">fyllesnakk</a></h1>
+    <p>friend.fail er et spill om å feile som venn. <br/>
+    Spilles med to eller flere personer på én mobil.</p>
+    <a href="github.com/asd">(kildekode)</a>
+
+    <h1><a href="http://friend.fail/">friend.fail</a></h1>
+    <p>friend.fail er et spill om å feile som venn. <br/>
+    Spilles med to eller flere personer på én mobil.</p>
+    <a href="github.com/asd">(kildekode)</a>
+
+    <h1><a href="friend.fail">2 cars, 1 road</a></h1>
+    <p>friend.fail er et spill om å feile som venn. <br/>
+    Spilles med to eller flere personer på én mobil.</p>
+    <a href="github.com/asd">(kildekode)</a>
+
+    <h1><a href="friend.fail">fyllesnakk</a></h1>
+    <p>friend.fail er et spill om å feile som venn. <br/>
+    Spilles med to eller flere personer på én mobil.</p>
+    <a href="github.com/asd">(kildekode)</a>
+
   </Layout>
 )
 
