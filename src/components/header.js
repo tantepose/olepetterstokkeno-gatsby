@@ -3,8 +3,8 @@ import React from "react"
 import styled from "styled-components"
 
 const StyledHeader = styled.header `
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 `
 
 const Header = () => (

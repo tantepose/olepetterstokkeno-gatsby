@@ -7,12 +7,38 @@
 
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import styled from "styled-components"
 
 import Header from "./header"
 import Footer from "./footer"
 import "./layout.css"
 
 const Layout = ({ children }) => {
+
+  const StyledLayout = styled.div`
+    --background-color: #232530;
+    --foreground-color: #FAC29A;
+    --highlight-color: #E95678;
+
+    background-color: var(--background-color);
+    color: var(--foreground-color); 
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+
+    a {
+    color: var(--highlight-color);
+    text-decoration: none;
+    }
+
+    a:hover {
+        color: var(--foreground-color);
+    }
+  `
+
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -24,13 +50,13 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <StyledLayout>
       <Header />
 
       <main>{children}</main>
         
       <Footer />
-    </>
+    </StyledLayout>
   )
 }
 

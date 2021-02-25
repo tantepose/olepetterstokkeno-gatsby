@@ -15,7 +15,7 @@ const musikk = () => (
         link="/musikk/"
         text="musikk"
     />
-
+    
     <p>Her er et par ting jeg har komponert.</p>
     <p>Her er et par ting jeg har komponert.</p>
     <p>Her er et par ting jeg har komponert.</p>

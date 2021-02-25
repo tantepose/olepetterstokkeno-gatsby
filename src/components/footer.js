@@ -3,10 +3,9 @@ import React from "react"
 import styled from "styled-components"
 
 const StyledFooter = styled.footer `
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 50px;
   font-style: italic;
-
 `
 
 const Footer = ({ siteTitle }) => (

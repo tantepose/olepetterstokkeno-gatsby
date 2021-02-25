@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Footer from "../components/footer"
 import TitleBox from "../components/titlebox"
 import SEO from "../components/seo"
+import Layout from "../components/layout"
 
 import TekstImage from "../images/tekst.gif"
 import KodeImage from "../images/kode.gif"
@@ -11,10 +11,10 @@ import FotoImage from "../images/foto.gif"
 import VideoImage from "../images/video.gif"
 import MusikkImage from "../images/musikk.gif"
 
-const IndexPage = () => (
-  <>
 
-    <div className="frontpage">
+
+const IndexPage = () => (
+  <Layout>
       <SEO title="Ole Petter Baugerød Stokke" />
 
       <TitleBox 
@@ -47,10 +47,7 @@ const IndexPage = () => (
         text="musikk"
       />
 
-    </div>
-
-    <Footer />
-  </>
+  </Layout>
 )
 
 export default IndexPage
