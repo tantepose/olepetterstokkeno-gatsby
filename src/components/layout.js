@@ -23,8 +23,8 @@ const Layout = ({ children }) => {
     background-color: var(--background-color);
     color: var(--foreground-color); 
 
-    margin: 0;
-    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
 
     font-family: 'JetBrains Mono', monospace;
     text-align: center;
