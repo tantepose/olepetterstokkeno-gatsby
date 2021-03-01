@@ -71,8 +71,7 @@ const Layout = ({ children }) => {
     }
 
     h1 {
-      margin-top: 50px;
-      margin-bottom: 10px;
+      margin-top: 70px;
     }
 
   `
@@ -90,7 +89,6 @@ const Layout = ({ children }) => {
   return (
     <StyledLayout>
       <GlobalStyle />
-
       <Header />
 
       <main>{children}</main>

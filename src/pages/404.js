@@ -6,7 +6,8 @@ import SEO from "../components/seo"
 const NotFoundPage = () => (
   <Layout>
     <SEO title="Ole Petter Baugerød Stokke... hva?" />
-    <p>Dette innholdet finner jeg ikke.</p>
+    <h1>404</h1>
+    <p>Dette innholdet finner jeg ikke. 😿</p>
   </Layout>
 )
 
