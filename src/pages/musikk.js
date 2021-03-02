@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -7,7 +6,7 @@ import TitleBox from "../components/titlebox"
 import MusikkImage from "../images/musikk.gif"
 
 const musikk = () => (
-  <Layout>
+  <Layout currentPage="musikk">
     <SEO title="Ole Petter Baugerød Stokke lager musikk" />
 
     <TitleBox 

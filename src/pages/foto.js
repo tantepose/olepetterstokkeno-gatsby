@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -7,7 +6,8 @@ import TitleBox from "../components/titlebox"
 import FotoImage from "../images/foto.gif"
 
 const foto = () => (
-  <Layout>
+  <Layout currentPage="foto">
+
     <SEO title="Ole Petter Baugerød Stokke fotograferer" />
 
     <TitleBox 

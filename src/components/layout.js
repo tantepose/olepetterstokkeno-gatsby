@@ -15,7 +15,7 @@ import Header from "./header"
 import Footer from "./footer"
 import "./layout.css" //used only for imports of Google fonts
 
-const Layout = ({ children }) => {
+const Layout = (props) => {
 
   // styling body with a GlobalStyle component
   const GlobalStyle = createGlobalStyle`
@@ -89,9 +89,9 @@ const Layout = ({ children }) => {
   return (
     <StyledLayout>
       <GlobalStyle />
-      <Header />
+      <Header currentPage = {props.currentPage} />
 
-      <main>{children}</main>
+      <main>{props.children}</main>
         
       <Footer />
     </StyledLayout>

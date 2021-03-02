@@ -5,16 +5,20 @@ import styled from "styled-components"
 const StyledHeader = styled.header `
   padding-top: 50px;
   padding-bottom: 50px;
-`
 
-const Header = () => (
+  .active {
+    text-decoration: underline;
+  }
+`
+//give active class if currentPage prop equals corresponding link
+const Header = (props) => (
   <StyledHeader>
     <Link to="/">Ole Petter Baugerød Stokke</Link><span> gjør </span> <br></br>
-    <Link to="/tekst/">tekst</Link><span> & </span>
-    <Link to="/kode/">kode</Link><span> & </span>
-    <Link to="/foto/">foto</Link><span> & </span>
-    <Link to="/musikk/">musikk</Link><span> & </span>
-    <Link to="/video/">video</Link>
+    <Link to="/tekst/" className={props.currentPage==="tekst" ? "active" : null}>tekst</Link><span> & </span>
+    <Link to="/kode/" className={props.currentPage==="kode" ? "active" : null}>kode</Link><span> & </span>
+    <Link to="/foto/" className={props.currentPage==="foto" ? "active" : null}>foto</Link><span> & </span>
+    <Link to="/musikk/" className={props.currentPage==="musikk" ? "active" : null}>musikk</Link><span> & </span>
+    <Link to="/video/" className={props.currentPage==="video" ? "active" : null}>video</Link>
   </StyledHeader>
 )
 

@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import TitleBox from "../components/titlebox"
 import SEO from "../components/seo"
@@ -12,9 +11,8 @@ import VideoImage from "../images/video.gif"
 import MusikkImage from "../images/musikk.gif"
 
 
-
 const IndexPage = () => (
-  <Layout>
+  <Layout currentPage="frontpage">
       <SEO title="Ole Petter Baugerød Stokke" />
 
       <TitleBox 

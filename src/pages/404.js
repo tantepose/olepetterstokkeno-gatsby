@@ -4,10 +4,10 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const NotFoundPage = () => (
-  <Layout>
+  <Layout currentPage="404">
     <SEO title="Ole Petter Baugerød Stokke... hva?" />
     <h1>404</h1>
-    <p>Dette innholdet finner jeg ikke. 😿</p>
+    <p>Dette innholdet finner jeg ikke.</p>
   </Layout>
 )
 

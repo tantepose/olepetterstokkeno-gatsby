@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -7,7 +6,7 @@ import TitleBox from "../components/titlebox"
 import VideoImage from "../images/video.gif"
 
 const video = () => (
-  <Layout>
+  <Layout currentPage="video">
     <SEO title="Ole Petter Baugerød Stokke filmer" />
 
     <TitleBox 
