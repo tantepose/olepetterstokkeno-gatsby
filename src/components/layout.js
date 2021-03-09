@@ -52,8 +52,8 @@ const Layout = (props) => {
   `
 
   const StyledLayout = styled.div`
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
 
     a {
     color: var(--highlight-color);
@@ -72,6 +72,11 @@ const Layout = (props) => {
 
     h1 {
       margin-top: 70px;
+      margin-bottom: 0px;
+    }
+
+    p {
+      margin: 10px;
     }
 
   `
