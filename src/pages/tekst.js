@@ -17,23 +17,18 @@ const tekst = () => (
         text="tekst"
     />
 
-    <h1>artikler:</h1>
-    <ul>
-      {content.tekst.artikler.map((item, index) => {
-        return  <>  
-          <li><a href={item.url}>{item.title}</a></li>
+    {Object.keys(content.tekst).map((category, index) => { //get content.tekst keys as array, map thru it
+      return (
+        <>
+          <h1>{category}</h1>
+          <ul>
+            {content.tekst[category].map((item, index) => {
+              return <li><a href={item.url}>{item.title}</a></li>
+            })}
+          </ul>
         </>
-      })}
-    </ul>
-   
-    <h1>diverse:</h1>
-    <ul>
-      {content.tekst.diverse.map((item, index) => {
-        return  <>  
-          <li><a href={item.url}>{item.title}</a></li>
-        </>
-      })}
-    </ul>
+      )
+    })}
 
   </Layout>
 )
