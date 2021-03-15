@@ -30,53 +30,73 @@
         }
     ],
     
-    "tekst": 
-        {
-            "📰 artikler": [
-                {
-                    "title": "Vanvittig artikkel!",
-                    "url": "http://olepetterstokke.no/2cars1road/"
-                },
-                {
-                    "title": "Vanvittig artikkel nummer to!",
-                    "url": "http://olepetterstokke.no/2cars1road/"
-                },
-                {
-                    "title": "Syk artikkel: - What!?",
-                    "url": "http://olepetterstokke.no/what/"
-                }
-            ],
+    "tekst": {
+        "artikler": [
+            {
+                "title": "Vanvittig artikkel!",
+                "url": "http://olepetterstokke.no/2cars1road/"
+            },
+            {
+                "title": "Vanvittig artikkel nummer to!",
+                "url": "http://olepetterstokke.no/2cars1road/"
+            },
+            {
+                "title": "Syk artikkel: - What!?",
+                "url": "http://olepetterstokke.no/what/"
+            }
+        ],
 
-            "🏓 diverse": [
-                {
-                    "title": "Vanvittig greie!",
-                    "url": "http://olepetterstokke.no/2cars1road/"
-                },
-                {
-                    "title": "Vanvittig greie nummer to!",
-                    "url": "http://olepetterstokke.no/2cars1road/"
-                }
-            ],
-            
-            "✊ meninger": [
-                {
-                    "title": "Jeg mener noe!",
-                    "url": "http://olepetterstokke.no/2cars1road/"
-                },
-                {
-                    "title": "Jeg mener også noe annet!",
-                    "url": "http://olepetterstokke.no/2cars1road/"
-                }
-            ]
-        },
+        "diverse": [
+            {
+                "title": "Vanvittig greie!",
+                "url": "http://olepetterstokke.no/2cars1road/"
+            },
+            {
+                "title": "Vanvittig greie nummer to!",
+                "url": "http://olepetterstokke.no/2cars1road/"
+            }
+        ],
+        
+        "meninger": [
+            {
+                "title": "Jeg mener noe!",
+                "url": "http://olepetterstokke.no/2cars1road/"
+            },
+            {
+                "title": "Jeg mener også noe annet!",
+                "url": "http://olepetterstokke.no/2cars1road/"
+            }
+        ]
+    },
 
     
     "musikk": [
 
     ],
-    "video": [
 
-    ],
+    "video": {
+        "forbruker": [
+            {
+                "title": "Vanvittig video!",
+                "url": "http://olepetterstokke.no/2cars1road/"
+            }
+        ],
+
+        "pingpong": [
+            {
+                "title": "Vanvittig video to!",
+                "url": "http://olepetterstokke.no/2cars1road/"
+            }
+        ],
+        
+        "musikk": [
+            {
+                "title": "Jeg laga video!",
+                "url": "http://olepetterstokke.no/2cars1road/"
+            }
+        ]
+    },
+
     "foto": [
         "http://olepetterstokke.no/img/foto/6.jpg",
         "http://olepetterstokke.no/img/foto/7.jpg",
