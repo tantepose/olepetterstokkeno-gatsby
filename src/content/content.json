@@ -22,12 +22,17 @@
             "title": "grøfta.no",
             "description": "Grøfta.no samler lapper og papirer fra byens grøfter på en egen-hosta Wordpress-blogg.",
             "url": "http://www.xn--grfta-wua.no/"
+        },
+        {
+            "title": "testen",
+            "description": "Data fra Github? Yo!",
+            "url": "hest.no"
         }
     ],
     
     "tekst": 
         {
-            "artikler": [
+            "📰 artikler": [
                 {
                     "title": "Vanvittig artikkel!",
                     "url": "http://olepetterstokke.no/2cars1road/"
@@ -35,16 +40,31 @@
                 {
                     "title": "Vanvittig artikkel nummer to!",
                     "url": "http://olepetterstokke.no/2cars1road/"
+                },
+                {
+                    "title": "Syk artikkel: - What!?",
+                    "url": "http://olepetterstokke.no/what/"
                 }
             ],
 
-            "diverse": [
+            "🏓 diverse": [
                 {
                     "title": "Vanvittig greie!",
                     "url": "http://olepetterstokke.no/2cars1road/"
                 },
                 {
                     "title": "Vanvittig greie nummer to!",
+                    "url": "http://olepetterstokke.no/2cars1road/"
+                }
+            ],
+            
+            "✊ meninger": [
+                {
+                    "title": "Jeg mener noe!",
+                    "url": "http://olepetterstokke.no/2cars1road/"
+                },
+                {
+                    "title": "Jeg mener også noe annet!",
                     "url": "http://olepetterstokke.no/2cars1road/"
                 }
             ]
@@ -60,7 +80,7 @@
     "foto": [
         "http://olepetterstokke.no/img/foto/6.jpg",
         "http://olepetterstokke.no/img/foto/7.jpg",
-        "http://olepetterstokke.no/img/foto/8.jpg"
-
+        "http://olepetterstokke.no/img/foto/8.jpg",
+        "http://olepetterstokke.no/img/foto/5.jpg"
     ]
 }
