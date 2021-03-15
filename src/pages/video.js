@@ -7,6 +7,9 @@ import VideoImage from "../images/video.gif"
 
 import content from "../content/content.json"
 
+// https://github.com/CookPete/react-player
+import ReactPlayer from "react-player"
+
 const video = () => (
   <Layout currentPage="video">
     <SEO title="Ole Petter Baugerød Stokke filmer" />
@@ -21,11 +24,16 @@ const video = () => (
       return (
         <>
           <h1>{category}</h1>
-          <ul>
+
             {content.video[category].map((item, index) => { // map thru items in each category
-              return <li><a href={item.url}>{item.title}</a></li>
+              return (
+                <ReactPlayer 
+                  url = {item}
+                  controls = {true}
+                  className = "player" 
+                />)
             })}
-          </ul>
+
         </>
       )
     })}

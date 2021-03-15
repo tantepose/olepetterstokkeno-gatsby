@@ -22,12 +22,6 @@ const IndexPage = () => (
       />
 
       <TitleBox 
-        image={FotoImage}
-        link="/foto/"
-        text="foto"
-      />
-
-      <TitleBox 
         image={KodeImage}
         link="/kode/"
         text="kode"
@@ -37,6 +31,12 @@ const IndexPage = () => (
         image={VideoImage}
         link="/video/"
         text="video"
+      />
+
+      <TitleBox 
+        image={FotoImage}
+        link="/foto/"
+        text="foto"
       />
 
       <TitleBox 

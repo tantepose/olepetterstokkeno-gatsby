@@ -5,6 +5,8 @@ import SEO from "../components/seo"
 import TitleBox from "../components/titlebox"
 import MusikkImage from "../images/musikk.gif"
 
+import content from "../content/content.json"
+
 // https://github.com/CookPete/react-player
 import ReactPlayer from "react-player"
 
@@ -18,24 +20,13 @@ const musikk = () => (
         text="musikk"
     />
     
-    <ReactPlayer
-        url="https://soundcloud.com/tante-pose/sets/lppf"
-        width="100%"
-        style={{paddingBottom:30}}
-    />
-
-    <ReactPlayer 
-      url="https://soundcloud.com/tante-pose/sets/heidi-heggeli"
-      width="100%"
-      style={{paddingBottom:30}}
-    />
-
-    <ReactPlayer 
-      url="https://soundcloud.com/tante-pose/sets/norske-8-bit-tv-serie-introer"
-      width="100%"
-      style={{paddingBottom:30}}
-    />
-
+    {content.musikk.map((item, index) => {
+      return (
+        <ReactPlayer 
+          url = {item}
+          className = "player"
+        />)
+    })}
 
   </Layout>
 )

@@ -79,6 +79,12 @@ const Layout = (props) => {
       margin: 10px;
     }
 
+    .player {
+      margin: auto;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
   `
 
   const data = useStaticQuery(graphql`
