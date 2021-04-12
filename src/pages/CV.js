@@ -17,7 +17,7 @@ const CV = () => (
         text="CV"
     />
 
-    {content.CV.map((item, index) => {
+    {content.CV.map((item) => {
         return  <>
             <h1>{item.year}</h1> 
             <p>{item.description}</p>

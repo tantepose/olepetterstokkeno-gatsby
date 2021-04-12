@@ -18,7 +18,7 @@ const kode = () => (
         text="kode"
     />
 
-    {content.kode.map((item, index) => {
+    {content.kode.map((item) => {
       return  <>
         <h1><a href={item.url}>{item.title}</a></h1> 
         <p>{item.description}</p>

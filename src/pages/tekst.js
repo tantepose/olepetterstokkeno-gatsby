@@ -17,12 +17,12 @@ const tekst = () => (
         text="tekst"
     />
 
-    {Object.keys(content.tekst).map((category, index) => { //map thru content.tekst keys (categories) as array
+    {Object.keys(content.tekst).map((category) => { //map thru content.tekst keys (categories) as array
       return (
         <>
           <h1>{category}</h1>
           <ul>
-            {content.tekst[category].map((item, index) => { // map thru items in category
+            {content.tekst[category].map((item) => { // map thru items in category
               return <li><a href={item.url}>{item.title}</a></li>
             })}
           </ul>

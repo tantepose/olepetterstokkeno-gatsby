@@ -20,7 +20,7 @@ const musikk = () => (
         text="musikk"
     />
     
-    {content.musikk.map((item, index) => {
+    {content.musikk.map((item) => {
       return (
         <ReactPlayer 
           url = {item}

@@ -20,12 +20,12 @@ const video = () => (
         text="video"
     />
 
-    {Object.keys(content.video).map((category, index) => { //map thru content.tekst keys (categories) as array
+    {Object.keys(content.video).map((category) => { //map thru content.tekst keys (categories) as array
       return (
         <>
           <h1>{category}</h1>
 
-            {content.video[category].map((item, index) => { // map thru items in each category
+            {content.video[category].map((item) => { // map thru items in each category
               return (
                 <ReactPlayer 
                   url = {item}

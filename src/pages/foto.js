@@ -27,7 +27,7 @@ const foto = () => (
     />
 
     <PhotoContainer>
-      {content.foto.map((url, index) => {
+      {content.foto.map((url) => {
         return <a href={url}><img src={url} /></a> 
       })}
     </PhotoContainer>

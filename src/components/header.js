@@ -15,7 +15,7 @@ const StyledHeader = styled.header `
 //give active class if currentPage prop equals corresponding link
 const Header = (props) => (
   <StyledHeader>
-    <Link to="/">Ole Petter Baugerød Stokke</Link><span> gjør </span> <br></br>
+    <Link to="/">Ole Petter Baugerød Stokke</Link><span> sin </span> <br></br>
     <Link to="/tekst/" className={props.currentPage==="tekst" ? "active" : null}>tekst</Link><span> & </span>
     <Link to="/kode/" className={props.currentPage==="kode" ? "active" : null}>kode</Link><span> & </span>
     <Link to="/video/" className={props.currentPage==="video" ? "active" : null}>video</Link><span> & </span>
