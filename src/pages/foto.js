@@ -18,7 +18,7 @@ const PhotoContainer = styled.div `
 const foto = () => (
   <Layout currentPage="foto">
 
-    <SEO title="Ole Petter Baugerød Stokke fotograferer" />
+    <SEO title="Ole Petter Baugerød Stokke fotograferer." />
 
     <TitleBox 
       image={FotoImage}

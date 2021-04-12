@@ -12,7 +12,7 @@ import ReactPlayer from "react-player"
 
 const video = () => (
   <Layout currentPage="video">
-    <SEO title="Ole Petter Baugerød Stokke filmer" />
+    <SEO title="Ole Petter Baugerød Stokke filmer." />
 
     <TitleBox 
         image={VideoImage}

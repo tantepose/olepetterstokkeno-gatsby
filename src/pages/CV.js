@@ -9,7 +9,7 @@ import content from "../content/content.json"
 
 const CV = () => (
   <Layout currentPage="CV">
-    <SEO title="Ole Petter Baugerød Stokke skriver" />
+    <SEO title="Ole Petter Baugerød Stokke jobber og studerer." />
 
     <TitleBox 
         image={CVImage}

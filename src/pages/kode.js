@@ -10,7 +10,7 @@ import content from "../content/content.json"
 
 const kode = () => (
   <Layout currentPage="kode">
-    <SEO title="Ole Petter Baugerød Stokke koder" />
+    <SEO title="Ole Petter Baugerød Stokke koder." />
 
     <TitleBox 
         image={KodeImage}

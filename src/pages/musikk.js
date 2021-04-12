@@ -12,7 +12,7 @@ import ReactPlayer from "react-player"
 
 const musikk = () => (
   <Layout currentPage="musikk">
-    <SEO title="Ole Petter Baugerød Stokke lager musikk" />
+    <SEO title="Ole Petter Baugerød Stokke komponerer." />
 
     <TitleBox 
         image={MusikkImage}

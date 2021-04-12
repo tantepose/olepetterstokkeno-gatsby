@@ -9,7 +9,7 @@ import content from "../content/content.json"
 
 const tekst = () => (
   <Layout currentPage="tekst">
-    <SEO title="Ole Petter Baugerød Stokke skriver" />
+    <SEO title="Ole Petter Baugerød Stokke skriver." />
 
     <TitleBox 
         image={TekstImage}
