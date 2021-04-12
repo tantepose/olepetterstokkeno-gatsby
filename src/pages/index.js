@@ -9,7 +9,7 @@ import KodeImage from "../images/kode.gif"
 import FotoImage from "../images/foto.gif"
 import VideoImage from "../images/video.gif"
 import MusikkImage from "../images/musikk.gif"
-
+import CVImage from "../images/CV.gif"
 
 const IndexPage = () => (
   <Layout currentPage="frontpage">
@@ -43,6 +43,12 @@ const IndexPage = () => (
         image={MusikkImage}
         link="/musikk/"
         text="musikk"
+      />
+
+      <TitleBox 
+        image={CVImage}
+        link="/CV/"
+        text="CV"
       />
 
   </Layout>
