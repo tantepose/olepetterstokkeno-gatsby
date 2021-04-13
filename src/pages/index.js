@@ -4,7 +4,7 @@ import TitleBox from "../components/titlebox"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 
-import TekstImage from "../images/tekst.gif"
+import TekstImage from "../images/tekst2.gif"
 import KodeImage from "../images/kode.gif"
 import FotoImage from "../images/foto.gif"
 import VideoImage from "../images/video.gif"

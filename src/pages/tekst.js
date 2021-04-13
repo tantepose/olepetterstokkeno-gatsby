@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import TitleBox from "../components/titlebox"
-import TekstImage from "../images/tekst.gif"
+import TekstImage from "../images/tekst2.gif"
 import content from "../content/content.json"
 
 const tekst = () => (
