@@ -12,8 +12,8 @@ const StyledFooter = styled.footer `
 
 const Footer = ({ siteTitle }) => (
   <StyledFooter>
-    <p><Link to="/">OlePetterStokke.no</Link> er designet og utviklet av Ole Petter Baugerød Stokke.</p>        
-    <a href="mailto:hei@olepetterstokke.no">hei@olepetterstokke.no</a> | <a href="tel:40550999">405 50 999</a>
+    <p><Link to="/">OlePetterStokke.no</Link> er utvikla av Ole Petter Baugerød Stokke.</p>        
+    <a href="mailto:olepetterstokke@gmail.com">olepetterstokke@gmail.com</a> | <a href="tel:40550999">405 50 999</a>
   </StyledFooter>
 )
 
