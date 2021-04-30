@@ -3,25 +3,25 @@
         {
             "title": "friend.fail",
             "description": "Friend.fail er et spill om å feile som venn. Spilles sammen med andre rundt et bord med øl.",
-            "url": "http://friend.fail/",
+            "url": "https://friend.fail/",
             "source": "https://github.com/tantepose/friend.fail"
         },
         {
             "title": "2 cars, 1 road",
             "description": "2 cars, 1 road er et lokalt tospiller Unity-spill om å kjøre bil uten å kræsje. Spilles i nettleseren på datamaskiner.",
-            "url": "http://olepetterstokke.no/2cars1road/",
+            "url": "https://filer.olepetterstokke.no/2cars1road/",
             "source": "https://github.com/tantepose/2cars1road"
         },
         {
             "title": "politibil.no",
             "description": "Politibil.no viser deg emojibaserte politimeldinger, med React og et eget Express-API.",
-            "url": "http://politibil.no/",
+            "url": "https://politibil.no/",
             "source": "https://github.com/tantepose/politibil"
         },
         {
             "title": "grøfta.no",
             "description": "Grøfta.no samler lapper og papirer fra byens grøfter på en egen-hosta Wordpress-blogg.",
-            "url": "http://www.xn--grfta-wua.no/"
+            "url": "https://www.xn--grfta-wua.no/"
         },
         {
             "title": "testen",
@@ -34,26 +34,26 @@
         "artikler": [
             {
                 "title": "Vanvittig artikkel!",
-                "url": "http://olepetterstokke.no/2cars1road/"
+                "url": "https://kode24.no/"
             },
             {
                 "title": "Vanvittig artikkel nummer to!",
-                "url": "http://olepetterstokke.no/2cars1road/"
+                "url": "https://kode24.no/"
             },
             {
                 "title": "Syk artikkel: - What!?",
-                "url": "http://olepetterstokke.no/what/"
+                "url": "https://kode24.no/"
             }
         ],
 
         "diverse": [
             {
                 "title": "Vanvittig greie!",
-                "url": "http://olepetterstokke.no/2cars1road/"
+                "url": "https://kode24.no/"
             },
             {
                 "title": "Vanvittig greie nummer to!",
-                "url": "http://olepetterstokke.no/2cars1road/"
+                "url": "https://kode24.no/"
             }
         ],
         
@@ -64,7 +64,7 @@
             },
             {
                 "title": "Jeg mener også noe annet!",
-                "url": "http://olepetterstokke.no/2cars1road/"
+                "url": "https://kode24.no/"
             }
         ]
     },
@@ -108,10 +108,10 @@
     },
 
     "foto": [
-        "http://olepetterstokke.no/img/foto/6.jpg",
-        "http://olepetterstokke.no/img/foto/7.jpg",
-        "http://olepetterstokke.no/img/foto/8.jpg",
-        "http://olepetterstokke.no/img/foto/5.jpg"
+        "https://filer.olepetterstokke.no/img/foto/6.jpg",
+        "https://filer.olepetterstokke.no/img/foto/7.jpg",
+        "https://filer.olepetterstokke.no/img/foto/8.jpg",
+        "https://filer.olepetterstokke.no/img/foto/5.jpg"
     ],
 
     "CV": [
@@ -144,7 +144,11 @@
             "description": "journalist, Dinside.no"
         },
         {
-            "year": "2018 - ",
+            "year": "2018",
+            "description": "fullstack JavaScript Techdegree, Treehouse"
+        },
+        {
+            "year": "2018 - nå",
             "description": "redaktør, kode24.no"
         }
     ]
