@@ -83,6 +83,14 @@ const Layout = (props) => {
       margin: auto;
       margin-bottom: 20px;
       margin-top: 20px;
+
+      max-width: 640px;
+    }
+
+    @media screen and (max-width: 800px) {
+      .player {
+        width: 50px;
+      }
     }
 
   `

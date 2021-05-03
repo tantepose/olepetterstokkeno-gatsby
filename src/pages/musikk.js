@@ -22,10 +22,15 @@ const musikk = () => (
     
     {content.musikk.map((item) => {
       return (
-        <ReactPlayer 
-          url = {item}
-          className = "player"
-        />)
+        <div className='player-wrapper'>
+          <ReactPlayer 
+            url = {item}
+            className = "player"
+            width = "100%"
+            height = "400px"
+          />
+        </div>
+      )
     })}
 
   </Layout>

@@ -27,11 +27,12 @@ const video = () => (
 
             {content.video[category].map((item) => { // map thru items in each category
               return (
-                <ReactPlayer 
-                  url = {item}
-                  controls = {true}
-                  className = "player" 
-                />)
+                  <ReactPlayer 
+                    url = {item}
+                    controls = {true}
+                    className = "player" 
+                    width = "100%"
+                  />)
             })}
 
         </>
