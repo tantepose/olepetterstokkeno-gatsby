@@ -70,6 +70,15 @@ const Layout = (props) => {
       padding: 0;
     }
 
+    li {
+      margin-bottom: 5px;
+    }
+
+    li::before {
+      content: "*"; /* Insert content that looks like bullets */
+      padding-right: 8px;
+    }
+
     h1 {
       margin-top: 70px;
       margin-bottom: 0px;

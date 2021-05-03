@@ -61,40 +61,86 @@
     ],
     
     "tekst": {
-        "artikler": [
+        
+        "kodemeninger": [
             {
-                "title": "Vanvittig artikkel!",
-                "url": "https://kode24.no/"
+                "title": "Jeg bruker en JSON-fil som CMS, og er nesten ikke flau over det",
+                "url": "https://www.kode24.no/guider/jeg-bruker-en-json-fil-som-cms-og-er-nesten-ikke-flau-over-det/73547427"
             },
             {
-                "title": "Vanvittig artikkel nummer to!",
-                "url": "https://kode24.no/"
+                "title": "Hjelp - jeg klarer ikke å lage nettsider i 2021",
+                "url": "https://www.kode24.no/nedetid/hjelp---jeg-klarer-ikke-a-lage-nettsider-i-2021/73316942"
             },
             {
-                "title": "Syk artikkel: - What!?",
-                "url": "https://kode24.no/"
+                "title": "Jeg signerte med et smilefjes, og ingen reagerte",
+                "url": "https://www.kode24.no/nedetid/jeg-signerte-med-et-smilefjes-og-ingen-reagerte/73688524"
+            },
+            {
+                "title": "Jeg har sett på min 20 år gamle kode, og gremmes",
+                "url": "https://www.kode24.no/nedetid/jeg-har-sett-pa-min-20-ar-gamle-kode-og-gremmes/71470303"
+            },
+            {
+                "title": "Jeg drukner i uferdige hobby­prosjekter",
+                "url": "https://www.kode24.no/nedetid/jeg-drukner-i-uferdige-hobbyprosjekter/72706270"
             }
         ],
 
-        "diverse": [
+        "forbruker": [
             {
-                "title": "Vanvittig greie!",
-                "url": "https://kode24.no/"
+                "title": "Reklameskilt ser hvem du er",
+                "url": "https://dinside.dagbladet.no/okonomi/reklameskilt-ser-hvem-du-er/67552025"
             },
             {
-                "title": "Vanvittig greie nummer to!",
-                "url": "https://kode24.no/"
+                "title": "Vi takket ja til 14 falske venneforespørsler på Facebook",
+                "url": "https://dinside.dagbladet.no/okonomi/vi-takket-ja-til-14-falske-venneforesporsler-pa-facebook/60956197"
+            },
+            {
+                "title": "Hemmelig knapp gir mer tid over gangfeltet",
+                "url": "https://www.dagbladet.no/tema/hemmelig-knapp-gir-mer-tid-over-gangfeltet/62203598"
+            },
+            {
+                "title": "Nå har rumpebilen blitt forbudt",
+                "url": "https://dinside.dagbladet.no/okonomi/na-har-rumpebilen-blitt-forbudt/61076657"
+            },
+            {
+                "title": "Japan Photo har synsk chat, men sa ingenting til kundene",
+                "url": "https://dinside.dagbladet.no/okonomi/japan-photo-har-synsk-chat/61091454"
+            },
+            {
+                "title": "Spy Cobra – PC-overvåkning fra Teknikmagasinet",
+                "url": "https://dinside.dagbladet.no/data/spy-cobra--pc-overvakning-fra-teknikmagasinet/61316844"
+            },
+            {
+                "title": "Sogneprest misbrukt på falske Facebook-profiler",
+                "url": "https://dinside.dagbladet.no/okonomi/sogneprest-misbrukt-pa-falske-facebook-profiler/61067695"
             }
         ],
+
         
-        "meninger": [
+        "kodestoff": [
             {
-                "title": "Derfor sykler jeg damesykkel",
-                "url": "https://dinside.dagbladet.no/fritid/derfor-sykler-jeg-damesykkel/61045675"
+                "title": "Ordr har vokst 40.000 prosent etter korona",
+                "url": "https://www.kode24.no/koden-bak/ordr-har-vokst-40000-prosent-etter-korona/72724798"
             },
             {
-                "title": "Jeg mener også noe annet!",
-                "url": "https://kode24.no/"
+                "title": "Fullstack vs. backend vs. frontend: Disse utviklerne tjener best",
+                "url": "https://www.kode24.no/kodelokka/fullstack-vs-backend-vs-frontend-disse-utviklerne-tjener-best/73521440"
+            },
+            {
+                "title": "Arne-Morten lagde el-olabil til barna",
+                "url": "https://www.kode24.no/koden-bak/arne-morten-lagde-el-olabil-til-barna/72805450"
+            },
+            {
+                "title": "Én av tre misfornøyd med video­møter og sam­arbeid på hjemme­kontor",
+                "url": "https://www.kode24.no/kodelokka/n-av-tre-misfornoyd-med-videomoter-og-samarbeid-pa-hjemmekontor/73362848"
+            },
+            {
+                "title": "Derfor tegnes VG-forsida av PHP",
+                "url": "https://www.kode24.no/koden-bak/derfor-tegnes-vg-forsida-av-php/73339634"
+            },
+            {
+                "title": "Utviklere misfornøyd med kvinneandelen, negative til tiltak",
+                "url": "https://www.kode24.no/kodelokka/utviklere-misfornoyd-med-kvinneandelen-negative-til-tiltak/72205002"
             }
         ]
     },
@@ -138,10 +184,14 @@
     },
 
     "foto": [
-        "https://filer.olepetterstokke.no/img/foto/6.jpg",
-        "https://filer.olepetterstokke.no/img/foto/7.jpg",
-        "https://filer.olepetterstokke.no/img/foto/8.jpg",
-        "https://filer.olepetterstokke.no/img/foto/5.jpg"
+        "https://filer.olepetterstokke.no/bilder/sanity.jpg",
+        "https://filer.olepetterstokke.no/bilder/clubhouse.jpg",
+        "https://filer.olepetterstokke.no/bilder/kode24timen.jpg",
+        "https://filer.olepetterstokke.no/bilder/sumo.jpg",    
+        "https://filer.olepetterstokke.no/bilder/ifi.jpg",
+        "https://filer.olepetterstokke.no/bilder/javazone.jpg",
+        "https://filer.olepetterstokke.no/bilder/hobbyprosjekter.jpg",
+        "https://filer.olepetterstokke.no/bilder/solpod.jpg"
     ],
 
     "CV": [
