@@ -13,7 +13,7 @@
             "source": "https://github.com/tantepose/friend.fail"
         },
         {
-            "title": "olepetterstokke.no",
+            "title": "ole petter stokke.no",
             "description": "olepetterstokke.no er du på akkurat her og nå. Koda med blant annet Gatsby og styled-components, med en JSON-fil som CMS, og rulla ut på Netlify.",
             "url": "https://olepetterstokke.no/",
             "source": "https://github.com/tantepose/2cars1road"
@@ -142,6 +142,29 @@
                 "title": "Utviklere misfornøyd med kvinneandelen, negative til tiltak",
                 "url": "https://www.kode24.no/kodelokka/utviklere-misfornoyd-med-kvinneandelen-negative-til-tiltak/72205002"
             }
+        ],
+
+        "meg i media": [
+            {
+                "title": "Journalisten.no: Starte podkast? Her er våre 10 beste råd etter 60 episoder!", 
+                "url": "https://journalisten.no/jorgen-jacobsen-kode24-kortnytt/starte-podkast-her-er-vare-10-beste-rad-etter-60-episoder/440729"
+            },
+            {
+                "title": "TV 2: Godtok 14 falske venneforespørsler - druknet i porno", 
+                "url": "https://www.tv2.no/v/1050793/"
+            },
+            {
+                "title": "PD.no: Gutta har laget påskekrim om hjembyen: «Rådhuset er hacket!»", 
+                "url": "https://www.pd.no/gutta-har-laget-paskekrim-om-hjembyen-radhuset-er-hacket/s/5-40-328984?&session=1cc36a61-b638-4ab2-9fea-e3c8c85f1367"
+            },
+            {
+                "title": "Treg PC? Disse triksene hjelper",
+                "url": "https://www.vi.no/teknologi/treg-pc-disse-triksene-hjelper/73422623"
+            },
+            {
+                "title": "medier24: Nå har Kode24 holdt koken i ett år: Slik har det gått med Aller Media-satsingen", 
+                "url": "https://m24.no/kode24-ole-petter-baugerod-stokke/na-har-kode24-holdt-koken-i-ett-ar-slik-har-det-gatt-med-aller-media-satsingen/230688"
+            }
         ]
     },
     
@@ -186,9 +209,11 @@
     "foto": [
         "https://filer.olepetterstokke.no/bilder/sanity.jpg",
         "https://filer.olepetterstokke.no/bilder/clubhouse.jpg",
+        "https://filer.olepetterstokke.no/bilder/bing.png",
         "https://filer.olepetterstokke.no/bilder/kode24timen.jpg",
         "https://filer.olepetterstokke.no/bilder/sumo.jpg",    
         "https://filer.olepetterstokke.no/bilder/ifi.jpg",
+        "https://filer.olepetterstokke.no/bilder/pingpong.jpg",
         "https://filer.olepetterstokke.no/bilder/javazone.jpg",
         "https://filer.olepetterstokke.no/bilder/hobbyprosjekter.jpg",
         "https://filer.olepetterstokke.no/bilder/solpod.jpg"
